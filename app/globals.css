@@ -3,6 +3,17 @@
 @tailwind utilities;
 
 :root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+:root {
   --background: #ffffff;
   --foreground: #171717;
 }
