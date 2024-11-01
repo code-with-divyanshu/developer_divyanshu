@@ -5,6 +5,7 @@ const nextConfig = {
       "cdn.jsdelivr.net",
       "assets.aceternity.com",
       "res.cloudinary.com",
+      "aceternity.com",
     ],
   },
 };
