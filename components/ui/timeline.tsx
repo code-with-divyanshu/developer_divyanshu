@@ -15,7 +15,7 @@ interface TimelineEntry {
   role: string;
   company: string;
   desc: string;
-  skills: string[];
+  skills?: string[];
   content?: React.ReactNode;
 }
 
@@ -73,17 +73,20 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                   {item.desc}
                 </p>
                 <div className="flex lg:flex-row gap-5 flex-wrap mb-5">
-                  <p className="flex w-full capitalize text-purple-700 text-2xl font-bold">
-                    Tech Stack I Use:{" "}
-                  </p>
-                  {item.skills.map((skill, index) => (
-                    <div
-                      key={index}
-                      className="px-2 py-2 rounded-md bg-gray-500"
-                    >
-                      {skill}
-                    </div>
-                  ))}
+                  {item.skills && (
+                    <p className="flex w-full capitalize text-purple-700 text-2xl font-bold">
+                      Tech Stack I Use:{" "}
+                    </p>
+                  )}
+                  {item.skills &&
+                    item.skills.map((skill, index) => (
+                      <div
+                        key={index}
+                        className="px-3 py-2 shadow-sm shadow-slate-500 rounded-md bg-teal-700"
+                      >
+                        {skill}
+                      </div>
+                    ))}
                 </div>
                 {item.content}{" "}
               </div>
