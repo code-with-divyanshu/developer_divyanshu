@@ -8,7 +8,7 @@ import Button from "./Button";
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   return (
-    <nav className="fixed top-0 justify-between  flex lg:justify-evenly items-center px-5 lg:px-28 w-full py-5 bg: backdrop-blur-lg rounded-xl">
+    <nav className="z-30 fixed top-0 justify-between  flex lg:justify-evenly items-center px-5 lg:px-28 w-full py-5 bg: backdrop-blur-lg rounded-xl">
       <Link href="/">
         <Image src="/web-development.png" alt="Logo" width={60} height={60} />
       </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
       </div>
 
       {mobileMenu ? (
-        <ul className="z-10 absolute shadow-purple-800 rounded-b-md rounded-s-md shadow-2xl top-0 right-0 w-[300px] md:w-[500px] h-[600px] md:h-[700px] bg-gradient-to-t from-purple-500 to-gray-600">
+        <ul className="z-20 absolute shadow-purple-800 rounded-b-md rounded-s-md shadow-2xl top-0 right-0 w-[300px] md:w-[500px] h-[600px] md:h-[700px] bg-gradient-to-t from-purple-500 to-gray-600">
           <Image
             src="/close.svg"
             width={42}
