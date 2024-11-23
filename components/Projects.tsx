@@ -9,14 +9,14 @@ export function Projects() {
       className="flex justify-center items-center relative flex-col -z-10"
     >
       <div className="flex flex-col justify-center items-center relative gap-3 w-full my-20">
-        <h1 className="text-[32px] text-center font-[600] mt-[12px] text-purple-700 lg:text-[42ppxx] lg:mt-[20px]">
+        <h1 className="relative text-2xl md:text-6xl my-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-purple-600  text-center font-sans font-bold">
           Projects
         </h1>
         <p className="lg:text[24px] text-[18px] text-center font-[600] text-gray-500">
-          I&apos;ve been working as Front End Developer for the past 1 years.
-          Here&apos;s a timeline of my journey.
+          Here are some of my skills on which I have been worked from past 1
+          years.
         </p>
-        <div className="w-full flex justify-center items-center">
+        <div className="w-full flex justify-center items-center lg:p-20">
           <HeroParallax products={products} />
         </div>
       </div>
