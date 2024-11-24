@@ -12,8 +12,10 @@ import React, { useEffect, useRef, useState } from "react";
 interface TimelineEntry {
   img: string;
   title: string;
-  role: string;
-  company: string;
+  role?: string;
+  company?: string;
+  course?: string;
+  stream?: string;
   desc: string;
   skills?: string[];
   content?: React.ReactNode;
@@ -67,8 +69,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 {item.title}
               </h3>
               <div>
-                <h3 className="text-3xl text-blue-500">{item.role}</h3>
-                <h2>{item.company}</h2>
+                <h3 className="text-3xl text-blue-500">
+                  {item.role || item.course}
+                </h3>
+                <h2>{item.company || item.stream}</h2>
                 <p className="text-neutral-500 text-sm font-normal mb-8">
                   {item.desc}
                 </p>
