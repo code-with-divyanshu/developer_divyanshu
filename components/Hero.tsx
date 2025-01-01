@@ -48,7 +48,7 @@ const Hero = () => {
 
       <div className="w-full flex justify-center xl:justify-end items-center">
         <Image
-          src="/divyanshu.jpg"
+          src="/profile-pic.png"
           alt="Divyanshu Bartwal"
           width={600}
           height={500}
