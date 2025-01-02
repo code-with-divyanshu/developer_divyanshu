@@ -12,6 +12,7 @@ import React, { useEffect, useRef, useState } from "react";
 interface TimelineEntry {
   img: string;
   title: string;
+  date?: string;
   role?: string;
   company?: string;
   course?: string;
@@ -73,7 +74,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                   {item.role || item.course}
                 </h3>
                 <h2>{item.company || item.stream}</h2>
-                <p className="text-neutral-500 text-sm font-normal mb-8">
+                <p className="text-neutral-500 text-sm font-normal mb-4">
                   {item.desc}
                 </p>
                 <div className="flex lg:flex-row gap-5 flex-wrap mb-5">
@@ -82,15 +83,16 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                       Tech Stack I Use:{" "}
                     </p>
                   )}
-                  {item.skills &&
-                    item.skills.map((skill, index) => (
-                      <div
-                        key={index}
-                        className="px-3 py-2 shadow-sm shadow-slate-500 rounded-md bg-teal-700"
-                      >
-                        {skill}
-                      </div>
-                    ))}
+                  {item.skills
+                    ? item.skills.map((skill, index) => (
+                        <div
+                          key={index}
+                          className="px-3 py-2 shadow-sm shadow-slate-500 rounded-md bg-teal-700"
+                        >
+                          {skill}
+                        </div>
+                      ))
+                    : item.date}
                 </div>
                 {item.content}{" "}
               </div>
