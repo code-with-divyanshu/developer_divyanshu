@@ -6,31 +6,29 @@ export function Experience() {
   const data = [
     {
       img: "https://res.cloudinary.com/codenode/image/upload/v1729695943/divyanshu_brerhn.jpg",
-      title: "2024(Persent)",
-      role: "Freelancer",
-      company: "eUttaranchal",
-      desc: "During my internship at eUttaranchal, I delved into web development and design, learning HTML, CSS, and JavaScript. I had the opportunity to develop a website for the company and collaborated with experienced professionals. Following the internship, I was thrilled to join eUttaranchal as a Frontend Developer and WordPress Developer. This transition allowed me to further enhance my skills and contribute to the company's projects in a meaningful way.",
+      title: "Freelancer",
+      role: "Frontend Developer",
+      company: "Various Companies",
+      date: "Aug 2024 - Present",
+      desc: "Currently working as a freelancer, collaborating with various companies on diverse web development projects. My role includes creating responsive designs, developing dynamic websites, and enhancing user interfaces using modern web technologies. This opportunity allows me to leverage my skills across multiple industries and continuously innovate in the field of web development.",
       skills: [
         "HTML",
         "CSS",
         "JavaScript",
         "Bootstrap",
         "Tailwind CSS",
-        "React Js",
-        "Next Js",
-        "Node Js",
-        "Express Js",
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "Express.js",
         "MongoDB",
-        "Wordpress",
+        "WordPress",
         "Elementor",
         "PHP",
         "C++",
       ],
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
-          </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
               src="/mega_blog.png"
@@ -40,8 +38,8 @@ export function Experience() {
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="/music_acedmy.png"
-              alt="Music Accedmy"
+              src="/music_academy.png"
+              alt="Music Academy"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
@@ -52,29 +50,26 @@ export function Experience() {
     },
     {
       img: "https://res.cloudinary.com/codenode/image/upload/v1729695819/eUttaranchal_bu58xc.jpg",
-      title: "06/2023-07/2024",
+      title: "Frontend Developer",
       role: "Frontend Developer",
       company: "eUttaranchal",
-      date: "Aug 2023 - Oct 2023",
-      desc: "During my internship at eUttaranchal, I delved into web development and design, learning HTML, CSS, and JavaScript. I had the opportunity to develop a website for the company and collaborated with experienced professionals. Following the internship, I was thrilled to join eUttaranchal as a Frontend Developer and WordPress Developer. This transition allowed me to further enhance my skills and contribute to the company's projects in a meaningful way.",
+      date: "Aug 2023 - Jul 2024",
+      desc: "As a Frontend Developer at eUttaranchal, I worked on developing and maintaining websites, ensuring responsive and user-friendly designs. I collaborated with the team to create impactful projects, utilizing my expertise in WordPress, Elementor, and modern web technologies like React.js and Tailwind CSS.",
       skills: [
         "HTML",
         "CSS",
         "JavaScript",
         "Bootstrap",
-        "Wordpress",
+        "WordPress",
         "Elementor",
         "WooCommerce",
         "PHP",
-        "PHOTOSHOP",
+        "Photoshop",
         "Tailwind CSS",
-        "React Js",
+        "React.js",
       ],
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
-          </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
               src="/euttaranchal.png"
@@ -85,7 +80,7 @@ export function Experience() {
             />
             <Image
               src="/scared_yatra.png"
-              alt="Scared Yatra"
+              alt="Sacred Yatra"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
@@ -96,36 +91,33 @@ export function Experience() {
     },
     {
       img: "https://res.cloudinary.com/codenode/image/upload/v1729695819/eUttaranchal_bu58xc.jpg",
-      title: "12/2024-06/2023",
+      title: "Frontend Developer Intern",
       role: "Frontend Developer Intern",
       company: "eUttaranchal",
-      date: "Aug 2023 - Oct 2023",
-      desc: "During my internship at eUttaranchal, I delved into web development and design, learning HTML, CSS, and JavaScript. I had the opportunity to develop a website for the company and collaborated with experienced professionals. Following the internship, I was thrilled to join eUttaranchal as a Frontend Developer and WordPress Developer. This transition allowed me to further enhance my skills and contribute to the company's projects in a meaningful way.",
+      date: "Jun 2023 - Aug 2023",
+      desc: "During my internship at eUttaranchal, I delved into web development and design, learning HTML, CSS, and JavaScript. I had the opportunity to develop a website for the company and collaborated with experienced professionals. This role was instrumental in shaping my career as a web developer.",
       skills: [
         "HTML",
         "CSS",
         "JavaScript",
         "Bootstrap",
-        "Wordpress",
+        "WordPress",
         "Elementor",
         "PHP",
       ],
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
-          </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
               src="/weather.jpg"
-              alt="startup template"
+              alt="Startup Template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
               src="/bank.png"
-              alt="startup template"
+              alt="Startup Template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
