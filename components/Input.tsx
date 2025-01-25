@@ -1,5 +1,5 @@
-import { textarea } from "framer-motion/client";
-import React from "react";
+"use client;";
+import React, { use } from "react";
 
 type InputProps = {
   type: string;
